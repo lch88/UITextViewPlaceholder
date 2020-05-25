@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0A2C80A05BA5DCAB34308B25 /* Pods-UITextViewPlaceholder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewPlaceholder_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UITextViewPlaceholder_Tests/Pods-UITextViewPlaceholder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0DD9F5699BE608F96C7386B7 /* Pods_UITextViewPlaceholder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITextViewPlaceholder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		429133AD95E7943B18F1F1D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		46D164CF3CC1CBC9D3A26C4E /* UITextViewPlaceholder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UITextViewPlaceholder.podspec; path = ../UITextViewPlaceholder.podspec; sourceTree = "<group>"; };
+		429133AD95E7943B18F1F1D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		46D164CF3CC1CBC9D3A26C4E /* UITextViewPlaceholder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UITextViewPlaceholder.podspec; path = ../UITextViewPlaceholder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* UITextViewPlaceholder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewPlaceholder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A06CCB7FA293F0F169178272 /* Pods-UITextViewPlaceholder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewPlaceholder_Example.release.xcconfig"; path = "Target Support Files/Pods-UITextViewPlaceholder_Example/Pods-UITextViewPlaceholder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A3FDA9F0CCC0BCB46471F4A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A3FDA9F0CCC0BCB46471F4A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A896133D253C9F046C2EDD52 /* Pods_UITextViewPlaceholder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITextViewPlaceholder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55C14C65940C397EE6F131C /* Pods-UITextViewPlaceholder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewPlaceholder_Example.debug.xcconfig"; path = "Target Support Files/Pods-UITextViewPlaceholder_Example/Pods-UITextViewPlaceholder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FF54D06FBD28EE56D133AE38 /* Pods-UITextViewPlaceholder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITextViewPlaceholder_Tests.release.xcconfig"; path = "Target Support Files/Pods-UITextViewPlaceholder_Tests/Pods-UITextViewPlaceholder_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				0A2C80A05BA5DCAB34308B25 /* Pods-UITextViewPlaceholder_Tests.debug.xcconfig */,
 				FF54D06FBD28EE56D133AE38 /* Pods-UITextViewPlaceholder_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = U2UY4HET6S;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = U2UY4HET6S;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -503,6 +505,7 @@
 			baseConfigurationReference = D55C14C65940C397EE6F131C /* Pods-UITextViewPlaceholder_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U2UY4HET6S;
 				INFOPLIST_FILE = UITextViewPlaceholder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -518,6 +521,7 @@
 			baseConfigurationReference = A06CCB7FA293F0F169178272 /* Pods-UITextViewPlaceholder_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U2UY4HET6S;
 				INFOPLIST_FILE = UITextViewPlaceholder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A2C80A05BA5DCAB34308B25 /* Pods-UITextViewPlaceholder_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U2UY4HET6S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -554,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF54D06FBD28EE56D133AE38 /* Pods-UITextViewPlaceholder_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = U2UY4HET6S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,22 @@
+{
+  "name": "UITextViewPlaceholder",
+  "version": "0.1.0",
+  "summary": "A short description of UITextViewPlaceholder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lch88/UITextViewPlaceholder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lch88": "chris@delightroom.com"
+  },
+  "source": {
+    "git": "https://github.com/lch88/UITextViewPlaceholder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UITextViewPlaceholder/Classes/**/*"
+}

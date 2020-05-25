@@ -1,0 +1,6 @@
+framework module Pods_UITextViewPlaceholder_Example {
+  umbrella header "Pods-UITextViewPlaceholder_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

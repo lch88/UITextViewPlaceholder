@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import UITextViewPlaceholder
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        UITextView().placeholder()
     }
 
     override func didReceiveMemoryWarning() {
